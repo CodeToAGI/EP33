@@ -44,20 +44,11 @@ PE(pos, 2i+1) = cos(pos / 10000^(2i / d_model))
 
 LayerNorm(x)  = (x − μ) / (σ + ε) · γ + β
 
-File Structure
-textep33/
-├── ep33_transformer.py      # Challenge solution (run this)
-├── generate_dl_ep33.py      # Full video generation pipeline
-├── manim_dl_ep33.py         # All Manim scenes
-└── README.md
-
 Next Episodes
 
 EP34 → BERT — Bidirectional Pretraining (Masked LM + NSP)
 EP35 → GPT Family — Decoder-only Transformers at scale
 
-
-Series: 72 episodes · Neurons → GPT
 
 Presenter: Mahaz Abbasi · AI Engineer
 
